@@ -1,6 +1,14 @@
 body {
   margin: 3rem 5%;
+  font-family: "Inter", sans-serif;
+}
+
+header {
+  padding: 15px;
   font-family: "Poppins", sans-serif;
+  background-image: url(./assets/WallpaperOne.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 img {
@@ -21,11 +29,10 @@ header > img {
 }
 
 nav {
-  background-color: rgb(45, 173, 152);
+  background-color: rgb(16, 67, 73);
   color: white;
   margin: 5px;
   border-radius: 5px;
-  box-shadow: 0 0px 5px 5px rgb(223, 223, 223);
 }
 
 nav ul {
@@ -67,5 +74,5 @@ footer div > img {
 }
 
 .nav-menu:hover {
-  transform: translateY(-5px);
+  transform: translateY(-3px);
 }
